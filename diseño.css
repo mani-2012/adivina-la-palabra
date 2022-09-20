@@ -1,0 +1,19 @@
+body{
+    background-color: deepskyblue;
+}
+h1{
+    color:white;
+    background-color: darkviolet;
+}
+label{
+    background-color: deeppink;
+    color:white
+}
+button{
+    background-color: darksalmon;
+    padding: 10px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
