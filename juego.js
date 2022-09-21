@@ -31,9 +31,11 @@ function cooki(){
     console.log("answer in lower case" +answer);
     if (answer==mini)
     {
-    if("lol" + 1){
-    mar+mar +1;
-    document.getElementById("mar").innerHTML+mar;
+    puntos=puntos + 1;
+    document.getElementById("puntos")=puntos;
     }
+    else{
+        punto=punto+1;
+        document.getElementById("punto")=punto;
     }
 }
