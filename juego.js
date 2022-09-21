@@ -32,10 +32,10 @@ function cooki(){
     if (answer==mini)
     {
     puntos=puntos + 1;
-    document.getElementById("puntos")=puntos;
+    document.getElementById("puntos").innerHTML=puntos;
     }
     else{
         punto=punto+1;
-        document.getElementById("punto")=punto;
+        document.getElementById("punto").innerHTML=punto;
     }
 }
